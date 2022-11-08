@@ -1,0 +1,62 @@
+/* CSS документ, сохраненный в файле style-1.css */
+p { 
+	text-indent: 20px;
+	text-align: justify;
+}
+td, tr, th, table {
+	border-radius: 10px;
+	padding: 6px;
+	border-color: #3c3b3d;
+	text-align: center;
+	text-decoration: none;
+}
+th {
+	padding: 10px;
+}
+table, td, tr {
+	border-style:outset;
+}
+table {
+	align-content: center;
+	margin: 0 auto;
+	width: 100%;
+	padding: .5em;
+}
+table table {
+	padding: 1.5em;
+}
+.heading {
+    background-color: #e9e9e9;
+}
+hr {
+	width: 50%;
+}
+.th_text {
+	text-align: center;
+}
+.style1
+{ 
+	font-size: 24px;
+	font-weight: bold;
+	text-align:center;
+}
+.menu {background-color: #20204e;}
+a { 
+	font-size: 18px;
+	font-weight: bolder;
+	color: #7a1a1a;
+}
+a:hover { background-color: #3b166b; }
+
+.term
+{ 
+	font-size: 12pt;
+	color: #6600cc;
+	font-family: Courier New;
+}
+.term2
+{ 
+	font-size: 14pt;
+	color:cc33cc;
+	font-family: Courier New;
+}

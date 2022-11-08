@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Buyan';
+    src: url("../fonts/Buyan/BuyanRegular.ttf");
+}
+@font-face {
+    font-family: 'Binaria';
+    src: url("../fonts/Binaria.otf");
+}
+
+html {
+    background-color: #3c3b3d;
+}
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 3em;
+}
+h1, h2 {
+    color: #e9e9e9;
+    font-family: 'Buyan';
+    text-align: center;
+    margin: 0;
+    margin-bottom: .5em;
+}
+
+h3, h4, h5, p, a, span, th b, button {
+    font-family: 'Binaria';
+}
+p {
+    text-align: center;
+}
+td {
+    font-family: 'Arial';
+}
+th b {
+    font-size: 1.3em;
+    border-width: medium;
+}
+h2, h3, h4, h5, p, a, span, td {
+    color: #e9e9e9;
+}
+
+span {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.container_block, .addon_bond {
+    background-color: #323133;
+    box-shadow: 0 0 .3em .7em #323133;
+    border-radius: 2em;
+    padding: 1.5em;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.container_block {
+    width: 94%;
+}
+
+.info_bond_head {
+    font-family: 'Arial';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info_bond {
+    background: #3c3b3d;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addon_bond {
+    width: 60%;
+    text-align: center;
+}
+.addon_bond div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+}
+.addon_bond div div {
+    margin: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+button, input {
+    transition: .4s;
+}
+button {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5em;
+    border-radius: 1em;
+    font-size: 1.4em;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #01e7b8;
+    box-shadow: 0 0 .5em .5em #3a4a51;
+}
+button:focus {
+    background-color: #5c43a9;
+    box-shadow: 0 0 .8em .5em #3a4a51;
+    color: #e9e9e9;
+}
+
+input {
+    border: none;
+    padding: 15px;
+    border-radius: 1em;
+    font-size: 1em;
+    width: 15%;
+}
+input:hover {
+    box-shadow: 0 0 .8em .3em #01e7b8;
+    width: 25%;
+}
+input:focus {
+    box-shadow: 0 0 .8em .5em #5c43a9;
+    width: 25%;
+}
+
+.portfolio_value {
+    text-align: right;
+    border-radius: 1em;
+    padding: 20px;
+    font-size: 2em;
+}

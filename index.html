@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link type="image/ico" href="img/favicon.ico" rel="shortcut icon">
+    <title>Bonds Analytics</title>
+</head>
+<body>
+
+    <h1>Bonds Analytics</h1>
+
+    <div class="container_block">
+        <div class="portfolio_value">
+            <span id="sum">0 ₽</span>
+        </div>
+        <table id="table_layout">
+            <tr class="heading">
+                <th><b>Тикер</b></th>
+                <th><b>Название</b></th>
+                <th><b>Рыночная стоимость</b></th>
+                <th><b>Стоимость при покупке</b></th>
+                <th><b>Количество</b></th>
+                <th><b>НКД</b></th>
+                <th><b>Номинал</b></th>
+                <th><b>Купон</b></th>
+                <th><b>Купон (%)</b></th>
+                <th><b>Доход</b></th>
+                <th><b>Стоимость в портфеле</b></th>
+            </tr>
+            <tr>
+                <td id="tiker"></td>
+                <td id="name"></td>
+                <td id="market_value"></td>
+                <td id="purchase_price"></td>
+                <td id="quantity"></td>
+                <td id="nkd"></td>
+                <td id="nominal"></td>
+                <td id="coupon"></td>
+                <td id="coupon_percent"></td>
+                <td id="profit"></td>
+                <td id="value_in_the_portfolio"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="addon_bond">
+        <h2>Add a new bond</h2>
+        <div>
+            <input id="input_tiker" placeholder="Тикер" type="text" value="RU000">
+            <input id="input_purchase_price" placeholder="Стоимость при покупке" type="number" value="983">
+            <input id="input_quantity" placeholder="Кол-во" type="number" value="5">
+            <input id="input_nkd" placeholder="НКД" type="text" value="17,2">
+        </div>
+        <button id="btn_save">Сохранить</button>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
