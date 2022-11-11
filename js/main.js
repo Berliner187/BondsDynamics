@@ -113,5 +113,4 @@ btn_save.onclick = function () {
     
     makeTable(1);
     output();
-    output();
 }

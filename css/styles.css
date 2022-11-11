@@ -47,7 +47,7 @@ td:hover {
 }
 
 th b {
-    font-size: 1.2em;
+    font-size: 1.1em;
     border-width: medium;
 }
 
@@ -120,17 +120,28 @@ button {
     user-select: none;
     cursor: pointer;
 }
+button:focus {
+    border: 10px 20px;
+}
+
 button:hover {
+    border: 10px 20px 20px 20px;
     color: #666;
     box-shadow: 0 0 .2em .2em #444;
 }
 
 input {
+    background-color: #e9e9e9;
     border: none;
     padding: 15px;
     border-radius: 1em;
     font-size: 1em;
     width: 15%;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
 }
 input:hover {
     box-shadow: 0 0 .8em .3em #444;
@@ -139,6 +150,31 @@ input:hover {
 input:focus {
     box-shadow: 0 0 .8em .5em #666;
     width: 20%;
+}
+td, tr, th, table {
+	border-radius: 10px;
+	padding: 6px;
+	border-color: #3c3b3d;
+	text-align: center;
+	text-decoration: none;
+}
+th {
+	padding: 10px;
+}
+table, td {
+	border-style: outset;
+    text-align: center;
+}
+table {
+	align-content: center;
+	margin: 0 auto;
+	width: 100%;
+	padding: .5em;
+}
+.heading {
+    background-color: #e9e9e9;
+	font-size: .9em;
+	border: inset;
 }
 
 .portfolio_value {
